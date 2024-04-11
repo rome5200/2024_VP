@@ -17,7 +17,7 @@ namespace _007_MessageBoxes // 교재 408p
             InitializeComponent();
         }
 
-        // Form Load 이벤트 함수
+        // Form Load 이벤트 처리 함수
         private void Form1_Load(object sender, EventArgs e)
         {
             // MessageBox에 "안녕" 출력
