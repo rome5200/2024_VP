@@ -16,7 +16,7 @@ namespace _005_Login // 교재 419p
         {
             InitializeComponent();
         }
-        // Click 이벤트 처리 함수
+        // Button Click 이벤트 처리 함수
         private void btnBMI_Click(object sender, EventArgs e)
         {    
             // 아이디가 abcd이고 패스워드가 1234일 경우
