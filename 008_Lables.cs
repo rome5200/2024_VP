@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _008_Labels
+namespace _008_Labels // 교재 410p
 {
     public partial class Form1 : Form
     {
@@ -17,12 +17,14 @@ namespace _008_Labels
             InitializeComponent();
         }
 
+        //Form이 화면에 로드되는 이벤트 함수
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "";
             label2.Text = "";
         }
 
+        // Button Click 이벤트 함수
         private void button1_Click(object sender, EventArgs e)
         {
             string raffaello;
