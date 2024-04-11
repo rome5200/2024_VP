@@ -17,7 +17,7 @@ namespace _008_Labels // 교재 410p
             InitializeComponent();
         }
 
-        //Form이 화면에 로드되는 이벤트 함수
+        //Form Load 이벤트 함수
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "";
