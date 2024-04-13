@@ -12,13 +12,14 @@
             //Console.WriteLine(r.Next(1, 7)); // 1 ~ 6 사이의 값
             //Console.WriteLine(r.NextDouble()); // 0 ~ 1.0 미만의 값
 
+            // 10개의 랜덤한 값 출력 
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(r.Next());
             }
             Console.WriteLine();
 
-            //주사위 
+            // 주사위 
             Console.WriteLine("주사위를 굴려보자");
             for (int i = 0; i < 10; i++)
             {
@@ -37,7 +38,7 @@
                 Console.Write(arr[i] + " ");
             } Console.WriteLine();
             Console.WriteLine();
-
+            
             int min = arr[0], max = arr[0];
 
             for (int i = 0; i< 20; i++)
