@@ -15,14 +15,14 @@
             Console.Write("y를 입력하세요 : ");
             y = int.Parse(Console.ReadLine());
 
-            //x~y
+            // x부터 y까지의 합
             for (int i = x; i <= y; i++)
             {
                 sum += i;
             }
             Console.WriteLine("X부터 Y까지의 합 : {0}", sum);
 
-            //홀수
+            // x부터 y까지의 홀수의 합
             for (int i = x; i <= y; i++)
             {
                 if (i % 2 == 1)
@@ -30,7 +30,7 @@
             }
             Console.WriteLine("X부터 Y까지의 홀수의 합 : {0}", oSum);
 
-            //역수
+            // x부터 y까지의 역수의 합
             for (int i = x; i <= y; i++)
             {
                 rSum += 1.0 / i;
@@ -38,7 +38,7 @@
             Console.WriteLine("X부터 Y까지의 역수의 합 : {0}", rSum);
             Console.WriteLine();
 
-            //2
+            // (2)
             Console.WriteLine("Q2. 구구단");
             for (int i = 1; i <= 9; i++)
             {
@@ -48,7 +48,7 @@
             }
             Console.WriteLine();
 
-            //3
+            // (3)
             Console.WriteLine("Q3. 지수");
             int Base, Index, pow = 1;
 
@@ -61,7 +61,7 @@
             Console.WriteLine(pow);
             Console.WriteLine();
 
-            //4
+            // (4)
             Console.WriteLine("Q4. 팩토리얼");
             int n, fact = 1;
             Console.Write("정수를 입력하세요 : ");
@@ -77,7 +77,7 @@
                 Console.WriteLine(arr[i]);
 
             foreach (var i in arr)
-                Console.WriteLine(i);
+                Console.WriteLine(i); // arr[i] : Erorr
         }
     }
 }
