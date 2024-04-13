@@ -17,6 +17,7 @@ namespace _018_twoChartAreas
             InitializeComponent();
         }
 
+        // Form Load 이벤트 처리 함수
         private void Form1_Load(object sender, EventArgs e)
         {
             chart1.Titles.Add("성적");
@@ -34,13 +35,17 @@ namespace _018_twoChartAreas
             }
         }
 
+        // 나누어 그리기
+        // Button Click 이벤트 처리 함수
         private void btnTwoChart_Click(object sender, EventArgs e)
         {
             if (chart1.ChartAreas.Count <= 1)
-                chart1.ChartAreas.Add("ChartArea2");
+                chart1.ChartAreas.Add("ChartArea2"); // ChartArea1은 디폴트로 존재하기 때문에 ChartArea2만 생성
             chart1.Series[1].ChartArea = "ChartArea2";
         }
 
+        // 합쳐서 그리기
+        // Button Click 이벤트 처리 함수
         private void btnOneChart_Click(object sender, EventArgs e)
         {
             if (chart1.ChartAreas.Count >=2 )
