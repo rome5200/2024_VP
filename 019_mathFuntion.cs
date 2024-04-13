@@ -22,7 +22,7 @@ namespace _019_mathFuntion
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            // Chart의 배경색
+            // Chart의 배경색 설정
             chart1.ChartAreas[0].BackColor = Color.Black;
             
             // ChartArea의 X축 설정
