@@ -28,6 +28,7 @@ namespace _022_FirebaseDesinger
             InitializeComponent();
         }
 
+        // Form Load 이벤트 함수
         //Firebase와 연결되었다면 메시지박스 출력
         private void Form1_Load(object sender, EventArgs e)
         {
