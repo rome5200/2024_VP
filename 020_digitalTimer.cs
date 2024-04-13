@@ -16,9 +16,11 @@ namespace _020_digitalTimer
         {
             InitializeComponent();
         }
+        
+        // Form Load 이벤트 처리 함수
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
+            timer1.Enabled = true; // timer1.Start();
             timer1.Interval = 1000;
             timer1.Tick += Timer1_Tick;
 
@@ -27,6 +29,7 @@ namespace _020_digitalTimer
             lblTime.Font = new Font("맑은 고딕", 32, FontStyle.Bold);
             lblTime.ForeColor = Color.DarkBlue;
         }
+        // Timer Tick 이벤트 처리 함수
         private void Timer1_Tick(object sender, EventArgs e)
         {
             lblDate.Text = DateTime.Now.ToString("yyyy년 MM dd일");
