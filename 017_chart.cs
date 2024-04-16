@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +20,7 @@ namespace _018_chart
         // Form Load 이벤트 처리 함수
         private void Form1_Load(object sender, EventArgs e)
         {
-            chart1.Titles.Add("성적"); // chartdml 타이틀 : 성적
+            chart1.Titles.Add("성적"); // chart의 타이틀 : 성적
 
             // Random 클래스의 객체 r 생성
             Random r = new Random(); 
