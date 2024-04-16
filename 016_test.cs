@@ -32,7 +32,7 @@ namespace _016_test
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            RadioButton[] major = new RadioButton[] { rb1, rb2, rb3, rb4, rb5};
+            RadioButton[] major = new RadioButton[] { rb1, rb2, rb3, rb4, rb5 };
             String result = "";
             if(rb1.Checked)
                 result = rb1.Text\n;
@@ -45,8 +45,8 @@ namespace _016_test
             else if(rb5.Checked)
                 result = rb5.Text\n;
             
-            string result += cb_grade.Text + "학년\n"+
-                txt_num.Text + "\n" + txt_name.Text.ToString() + "\n" + cb_life.Text.ToString();
+            result += " " + cb_grade.Text + "학년\n"+
+                txt_num.Text + "\n" + txt_name.Text + "\n" + cb_life.Text;
 
            MessageBox.Show(result, "학생정보");
         
