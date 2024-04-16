@@ -23,7 +23,7 @@ namespace _012_ComboBox1
             InitializeComponent();
         }
 
-        Button Click 이벤트 처리 함수
+        // Button Click 이벤트 처리 함수
         private void button1_Click(object sender, EventArgs e)
         {
             // totalScore와 totalCredits를 선언하고 초기화한다.
