@@ -35,9 +35,9 @@ namespace _012_ComboBox1
             txt7.Text = "영어I";
             txt8.Text = "의사소통장애의 이해";
 
-            crds = new ComboBox[] { crd1, crd2, crd3, crd4, crd5, crd6, crd7, crd8 }; // 배열 crds 초기화
-            grds = new ComboBox[] { grd1, grd2, grd3, grd4, grd5, grd6, grd7, grd8 }; // 배열 grds 초기화
-            titles = new TextBox[] { txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8 }; // 배열 titles 초기화
+            crds = new ComboBox[] { crd1, crd2, crd3, crd4, crd5, crd6, crd7, crd8 }; // ComboBox 배열 crds 초기화
+            grds = new ComboBox[] { grd1, grd2, grd3, grd4, grd5, grd6, grd7, grd8 }; // ComboBox 배열 grds 초기화
+            titles = new TextBox[] { txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8 }; // TextBox 배열 titles 초기화
             int[] arrCredit = { 1, 2, 3, 4, 5 }; // 정수형 배열 arrCredit 선언
             List<string> lstGrade = new List<string> { "A+", "A0", "B+", "B0", "C+", "C0", "D+", "D0", "F" }; // 리스트 lstGrade 생성
 
