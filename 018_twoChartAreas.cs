@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +21,8 @@ namespace _018_twoChartAreas
         private void Form1_Load(object sender, EventArgs e)
         {
             chart1.Titles.Add("성적");
-
+            
+            "Series2"라는 이름의 series 추가
             chart1.Series.Add("Series2");
 
             chart1.Series[0].LegendText = "수학";
