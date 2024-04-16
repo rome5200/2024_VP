@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,6 +33,8 @@ namespace _016_test
         private void button1_Click(object sender, EventArgs e)
         {
             RadioButton[] major = new RadioButton[] { rb1, rb2, rb3, rb4, rb5 };
+            
+            // 출력결과 : 학과\n 학년\n 학번\n 이름\n 주거형태\n
             String result = "";
             if(rb1.Checked)
                 result = rb1.Text\n;
